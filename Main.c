@@ -40,8 +40,9 @@ struct books
     char *cat;
 //struct meroDate issued;
 //struct meroDate duedate;
-} a;
+} a; // definition of a struct a of typr books
 
+// main funtion for the program to start excution
 int main()
 {
     mainmenu();
@@ -75,7 +76,7 @@ void mainmenu()
     default :
         printf("Invalid \n" );
     }
-}
+} // Close tag for function mainmenu before add books function
 void addbooks(void)    //funtion that add books
 {
     system("cls");
